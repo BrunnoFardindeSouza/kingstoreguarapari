@@ -2,6 +2,9 @@
     header{
       flex-direction: row;
     }
+    main{
+      font-size: 1em;
+    }
     .btnmenuMobile{
         display: none;
     }
