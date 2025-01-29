@@ -108,21 +108,34 @@ main {
 
 }
 #C1img1{
+  height: 100%;
+  width: 50%;
+  background: darkred url('https://th.bing.com/th/id/OIP.jTj_j0hzYyTd_UQGLdydNwHaLG?rs=1&pid=ImgDetMain') no-repeat top;
+  background-size: cover;
 }
 #C1img2{
-  
+  height: 100%;
+  width: 50%;
+  background: darkred url('https://lojaeconomize.com.br/cdn/shop/files/Designsemnome_65.png?v=1693966407') no-repeat center;
+  background-size: cover;
 }
-#C1img2{
-  display: none;
-  background-color: red;
+
+#C2img1{
+  height: 100%;
+  width: 50%;
+  background: darkred url('https://th.bing.com/th/id/OIP.OkUPKBmalSKX8Ac3MmpvuQHaJ3?rs=1&pid=ImgDetMain') no-repeat center;
+  background-size: cover;
 }
 #C2img2{
-  display: none;
-  background-color: rgb(126, 98, 98);
+  height: 100%;
+  width: 50%;
+  background: darkred url('https://th.bing.com/th/id/OIP.3QiDE0sCt1-lenHT0kuubQHaHa?rs=1&pid=ImgDetMain') no-repeat center;
+  background-size: cover;
 }
 footer {
   font-family: Comic Sans MS;
   height: 10vh;
+  margin-top: 10px;
   color: white;
   display: flex;
   text-align: center;
