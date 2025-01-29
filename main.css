@@ -48,7 +48,7 @@ header {
   display: none;
   position: absolute;
   flex-direction: column;
-  min-height: 120vh;
+  min-height: 100vh;
   text-align: center;
   align-items: center;
   background-color: rgba(122, 102, 102, 0.959);
