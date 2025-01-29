@@ -17,7 +17,8 @@ ul > li {
 header {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
+  flex-direction: row-reverse;
   background-color: black;
   color: white;
   height: 40px;
@@ -25,6 +26,9 @@ header {
 }
 .menuPc{
   display: none;
+}
+.logo{
+  display: flex;
 }
 .btnmenuMobile{
   display: flex;
@@ -34,6 +38,7 @@ header {
   height: 30px;
   width: 30px;
   cursor:pointer;
+  margin-left: 10px;
 }
 .MenuFutuante{
   display: none;
@@ -79,7 +84,7 @@ hr{
   margin-top: 4px;
 }
 main {
-  background-color: darkgray;
+  background-color: white;
   min-height: 80vh;
 }
 .texto {
@@ -135,7 +140,7 @@ main {
 footer {
   font-family: Comic Sans MS;
   height: 10vh;
-  margin-top: 10px;
+  margin-top: 0.9px;
   color: white;
   display: flex;
   text-align: center;
