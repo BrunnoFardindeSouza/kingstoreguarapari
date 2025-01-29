@@ -1,4 +1,4 @@
-@media screen and (min-width:600px){
+@media screen and (min-width:490px){
     .btnmenuMobile{
         display: none;
     }
@@ -14,12 +14,6 @@
     .img > p {
         width: 50%;
         height: 100%;
-    }
-    #C1img1{
-
-    }
-    #C1img2{
-    
     }
     #C1img2{
         display: flex;
