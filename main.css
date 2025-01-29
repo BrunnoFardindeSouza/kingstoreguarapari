@@ -39,7 +39,7 @@ header {
   display: none;
   position: absolute;
   flex-direction: column;
-  height: 100vh;
+  min-height: 120vh;
   text-align: center;
   align-items: center;
   background-color: rgba(122, 102, 102, 0.959);
