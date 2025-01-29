@@ -1,6 +1,9 @@
 @media screen and (min-width:590px){
-    .menuMobile{
+    .btnmenuMobile{
         display: none;
+    }
+    .MenuFutuante{
+      display: none;
     }
     .img {
         display: flex;
@@ -20,7 +23,7 @@
     }
     #C1img2{
         display: flex;
-        background-color: red;
+        background-color: rgb(161, 127, 127);
     }
     #C2img2{
         display: flex;

@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  height: 100vh;
 }
 * {
   margin: 0px;
@@ -26,16 +26,29 @@ header {
 .menuPc{
   display: none;
 }
-.menuMobile{
-  background-color: red;
+.btnmenuMobile{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   height: 30px;
+  width: 30px;
+  cursor:pointer;
+}
+.MenuFutuante{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  background-color: red;
+  width: 100%;
+}
+hr{
+  width: 30px;
+  margin-top: 4px;
 }
 main {
   background-color: darkgray;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 .texto {
   padding: 10px;
@@ -59,11 +72,10 @@ main {
   height: 200px;
 }
 .imgs{
-  background-color: blue;
+  background-color: rgb(28, 28, 116);
 
 }
 #C1img1{
-
 }
 #C1img2{
   
@@ -74,11 +86,11 @@ main {
 }
 #C2img2{
   display: none;
-  background-color: red;
+  background-color: rgb(126, 98, 98);
 }
 footer {
   font-family: Comic Sans MS;
-  height: 40px;
+  height: 10vh;
   color: white;
   display: flex;
   text-align: center;
