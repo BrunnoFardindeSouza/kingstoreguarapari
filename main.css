@@ -26,9 +26,13 @@ header {
 }
 .menuPc{
   display: none;
+  max-width: 60%;
 }
 .logo{
   display: flex;
+  width: 40%;
+  height:100%;
+  background-color: red;
 }
 .btnmenuMobile{
   display: flex;
@@ -86,6 +90,7 @@ hr{
 main {
   background-color: white;
   min-height: 80vh;
+  font-size: 0.9em;
 }
 .texto {
   padding: 10px;
@@ -150,6 +155,8 @@ footer {
 }
 .fixar{
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   position: fixed;
   top:0px;
   width: 100%;
