@@ -1,6 +1,6 @@
 const navBody = [...document.getElementsByClassName("navBody")]; 
 
-window.onscroll = (()=>{
+function verificTop(){
     navBody.map((el,i,a)=>{
         topoNavBody = el.offsetTop
         if(scrollY > topoNavBody){
@@ -9,5 +9,14 @@ window.onscroll = (()=>{
             el.classList.remove("fixar")
         }
     })
+
+}
+
+window.onload = (()=>{
+    verificTop();
+
+})
+window.onscroll = (()=>{
+    verificTop()
 
 })
